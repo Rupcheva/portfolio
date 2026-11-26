@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Yulia Rupcheva — Senior Product Designer based in Dubai."><title>Yulia Rupcheva — Product Designer</title><link rel="stylesheet" href="styles.css"></head>
+<body class="homepage-card-experiment"><a class="skip" href="#main">Skip to content</a><header class="wrap header"><a class="wordmark" href="#" aria-label="Yulia Rupcheva home">YR<span>®</span></a><a class="header-name" href="#">Yulia Rupcheva</a><nav aria-label="Main navigation"><a href="#contact">Contact</a></nav></header>
+<main id="main">
+<section class="wrap hero">
+  <div class="hero-intro">
+    <h1>I’m Yulia — a Senior Product Designer creating intuitive digital experiences across AI, B2B SaaS, and consumer products, from 0 → 1 and beyond.</h1>
+  </div>
+  <div class="hero-bottom"><a href="#work">Explore my work <span aria-hidden="true">↓</span></a></div>
+</section>
+<section class="wrap about" id="about"><div class="about-copy"><h2 class="eyebrow">A little about me</h2><p>I’m a product designer working at the intersection of people, business, and technology.</p><p class="muted about-secondary">Creating thoughtful digital experiences, from the first idea to the smallest detail.</p></div><div class="photo-placeholder" role="img" aria-label="Space reserved for Yulia’s portrait"><div class="portrait-outline"><div class="portrait-head"></div><div class="portrait-shoulders"></div></div><span>Your photo here</span></div><div class="detail-placeholder" role="img" aria-label="Space for a personal or studio photo"><div class="asterisk" aria-hidden="true">✳</div><span>A little more you</span></div></section>
+<section class="work" id="work"><article class="project project-queue" id="project-1"><a class="project-link" href="queue.html" aria-labelledby="project-1-title"><div class="project-inner"><div class="queue-art"><img class="queue-dashboard" src="assets/queue-dashboard.png" alt="Queue AI-powered dashboard with quotes, podcasts, and social post drafts" width="2328" height="1622"></div><div class="queue-intro"><img class="queue-logo" src="assets/queue-logo.svg" alt="Queue" width="243" height="63"><h3 id="project-1-title" class="queue-highlight-title"><span class="queue-highlight queue-highlight-pink">Designing</span> a Platform<br>
+  for <span class="queue-highlight queue-highlight-yellow">AI-Assisted</span><br>
+  <span class="queue-highlight queue-highlight-blue">Content Creation</span></h3><p class="queue-detail">I designed Queue’s AI conversation experience and dashboard from scratch, enabling LinkedIn creators to turn their experiences into personalized posts, customize visuals, and schedule content in one workspace.</p></div></div></a></article><article class="project project-instapanel" id="project-2"><a class="project-link" href="instapanel-core-actions.html" aria-labelledby="project-2-title"><div class="project-inner"><div class="instapanel-art"><img src="assets/instapanel-core-actions-v2.png" alt="Instapanel proposal interface displayed on a laptop" loading="lazy"></div><div class="project-copy"><img class="instapanel-logo" src="assets/instapanel-logo.svg" alt="Instapanel"><h3 id="project-2-title">Case Study: Enhancing Core Actions for Time Savings</h3><p class="instapanel-description">Exploring a simpler, more intuitive way to complete core actions, helping users save time in their everyday workflow.</p></div></div></a></article><article class="project instapanel-cover" id="project-3" aria-labelledby="instapanel-redesign-title"><a class="project-link" href="instapanel-redesign.html" aria-labelledby="instapanel-redesign-title">
+  <div class="instapanel-redesign-grid">
+    <div class="instapanel-redesign-art">
+      <img class="instapanel-redesign-back-screen" src="assets/instapanel-redesign-cost-estimates-hero.png" alt="Instapanel cost estimates interface" width="1440" height="1024" loading="lazy">
+      <img class="instapanel-redesign-front-screen" src="assets/instapanel-screening.png?v=2" alt="Instapanel screening and audience criteria interface" width="1640" height="1374" loading="lazy">
+    </div>
+    <div class="instapanel-redesign-copy">
+      <img class="instapanel-cover-logo" src="assets/instapanel-logo.svg" alt="Instapanel">
+      <h3 id="instapanel-redesign-title">Transformative Redesign<br>of SaaS Platform:<br>Process Description</h3>
+      <p class="instapanel-redesign-description">The complete redesign of the platform end-to-end, improving core workflows, communication, and data management.</p>
+    </div>
+  </div>
+</a></article><article class="project project-ureeka" id="project-5"><a class="project-link" href="ureeka.html" aria-labelledby="project-5-title">
+  <div class="project-inner">
+    <div class="ureeka-art">
+      <div class="ureeka-phone ureeka-call"><img src="assets/ureeka-call.png" alt="Ureeka video call screen" width="2659" height="4062" loading="lazy"></div>
+      <div class="ureeka-phone ureeka-profile"><img src="assets/ureeka-profile.png" alt="Ureeka profile screen" width="2659" height="4062" loading="lazy"></div>
+    </div>
+    <div class="project-copy">
+      <img class="instapanel-logo" src="assets/ureeka-logo.svg" alt="Ureeka">
+      <h3 id="project-5-title">iOS App &amp; Desktop Platform That Attracted $8M Investment</h3>
+      <p class="ureeka-description">Designed key experiences for a 0-to-1 product across iOS and web, from research and testing to launch.</p>
+    </div>
+  </div>
+</a></article></section>
+<section class="wrap contact" id="contact">
+  <h2>Let’s make something<br>great together.</h2>
+  <ul class="contact-links">
+    <li><a class="contact-link" href="https://www.linkedin.com/in/yulia-rupcheva/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></li>
+    <li><button class="contact-link contact-email" type="button">Write me an email <span aria-hidden="true">↗</span></button></li>
+  </ul>
+  <footer><span>© 2026 Yulia Rupcheva</span><a href="#">Back to top ↑</a></footer>
+</section></main><script src="case-header.js" defer></script><script>
+  document.querySelector('.contact-email').addEventListener('click', (event) => {
+    const address = document.createElement('span');
+    address.className = 'contact-link';
+    address.tabIndex = -1;
+    address.textContent = 'yuliarupcheva@gmail.com';
+    event.currentTarget.replaceWith(address);
+    address.focus();
+  });
+</script></body></html>

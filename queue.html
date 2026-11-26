@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queue Case Study | Yulia Rupcheva</title>
+  <link rel="stylesheet" href="queue.css">
+  <style>
+    /* Match the inset card geometry of the portfolio homepage. */
+    body.queue-experiment {
+      --card-width: min(1540px, calc(100% - 48px));
+      --card-radius: 28px;
+      --card-gap: 24px;
+      --card-top-extra: 12px;
+      background: #fff;
+    }
+
+    .queue-experiment main {
+      display: grid;
+      gap: var(--card-gap);
+      width: var(--card-width);
+      margin: var(--card-gap) auto;
+    }
+
+    .queue-experiment main > section,
+    .queue-experiment .case-footer {
+      min-width: 0;
+      border-radius: var(--card-radius);
+    }
+
+    .queue-experiment .case-footer {
+      width: var(--card-width);
+      margin: 0 auto var(--card-gap);
+    }
+
+    .queue-experiment .cover {
+      padding-block-start: calc(clamp(28px, 4vw, 56px) + var(--card-top-extra));
+    }
+
+    .queue-experiment .overview {
+      padding-block-start: calc(clamp(21px, 3vw, 43px) + var(--card-top-extra));
+    }
+
+    .queue-experiment .study-context {
+      padding-block-start: calc(16px + var(--card-top-extra));
+    }
+
+    .queue-experiment .solution {
+      padding-block-start: calc(max(2px, clamp(42px, 6vw, 86px) - 40px) + var(--card-top-extra));
+    }
+
+    .queue-experiment .results {
+      padding-block-start: calc(clamp(32px, 5vw, 72px) + var(--card-top-extra));
+    }
+
+    .queue-experiment .case-footer { padding-block-start: 30px; }
+
+    .queue-experiment .role-title { display: block; }
+    .queue-experiment .about-queue-block { margin-top: 0; }
+
+    @media (max-width: 700px) {
+      body.queue-experiment {
+        --card-width: calc(100% - 24px);
+        --card-radius: 20px;
+        --card-gap: 18px;
+      }
+
+      .queue-experiment main { margin-top: 12px; }
+    }
+
+    @media (max-width: 640px) {
+      .queue-experiment .headline-mobile > span { white-space: normal; }
+    }
+  </style>
+  <link rel="stylesheet" href="case-contact.css">
+</head>
+<body class="queue-experiment">
+  <header class="site-header case-home-header"><a class="wordmark" href="index.html" aria-label="Yulia Rupcheva home">YR<span>®</span></a><a class="header-name" href="index.html">Yulia Rupcheva</a></header>
+  <main>
+    <section class="cover">
+      <div class="page-width">
+        <img class="logo" src="assets/queue-logo.svg" alt="Queue" width="243" height="63">
+        <h1>
+          <span class="headline-desktop">Designing an <strong class="orange">AI-Powered Dashboard</strong> where <strong class="pink">business goals</strong><br>
+          <strong class="blue">and user experience</strong> work <b>in perfect harmony</b></span>
+          <span class="headline-mobile">
+            <span>Designing an</span>
+            <span><strong class="orange">AI-Powered Dashboard</strong> where</span>
+            <span class="headline-highlight-row"><strong class="pink">business goals</strong> <strong class="blue">and user experience</strong></span>
+            <span>work <b>in perfect harmony</b></span>
+          </span>
+        </h1>
+        <img class="dashboard" src="assets/queue-dashboard.png" width="2328" height="1622" alt="Queue dashboard showing quotes, podcast clips, and LinkedIn post drafts">
+      </div>
+    </section>
+    <section class="overview" aria-labelledby="queue-role-title">
+      <div class="page-width">
+        <h2 class="role-title section-heading" id="queue-role-title">My Role</h2>
+        <p class="section-intro">I was the sole Senior Product Designer at Queue, an AI-powered SaaS platform, working directly with founders and C-level leadership. I owned the product design process end-to-end, including conversational AI, personalization, and core product workflows.</p>
+        <ul class="role">
+          <li><span class="role-icon" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="5" r="2.1"/><path d="M3.5 13v-1a4.5 4.5 0 0 1 9 0v1z"/></svg></span><div><p>Designed an AI conversational experience and dashboard from scratch, contributing to <strong>20% higher retention and 2× paid subscriptions</strong>.</p></div></li>
+          <li><span class="role-icon" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="6"/><circle cx="8" cy="8" r="3.5"/><circle cx="8" cy="8" r="1"/></svg></span><div><p>Created customizable LinkedIn templates and AI-generated visuals, driving <strong>3× engagement and 20% more publishing activity</strong>.</p></div></li>
+          <li><span class="role-icon" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="3" width="11" height="10" rx="1.4"/><path d="m4.5 8 1.7 1.7L9 6.8M9.8 10.5h1.5"/></svg></span><div><p>Designed AI-powered tone-of-voice personalization, reducing content editing time by <strong>60%</strong>.</p></div></li>
+          <li><span class="role-icon" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="6"/><path d="m7 5.5 3.5 2.5L7 10.5z"/></svg></span><div><p>Built a research-driven scheduling feature, reducing LinkedIn publishing time by <strong>70%</strong>.</p></div></li>
+          <li><span class="role-icon" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="12" height="8" rx="1.5"/><path d="M5.5 5V3h5v2M2 8.5h12M7 8.5v1.5h2V8.5"/></svg></span><div><p>Simplified content creation with conversational AI, turning professional experiences into LinkedIn posts with fewer steps.</p></div></li>
+          <li><span class="role-icon" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3h10a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H7l-3 2v-2H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zM5 6h6M5 8.5h4"/></svg></span><div><p>Collaborated with founders, Product, and Engineering, using <strong>usability testing and LogRocket analytics</strong> to refine designs and meet technical requirements.</p></div></li>
+        </ul>
+      </div>
+    </section>
+    <section class="overview" aria-labelledby="queue-about-title">
+      <div class="page-width">
+        <div class="about-queue-block">
+          <h2 class="section-heading" id="queue-about-title">About Queue</h2>
+          <p class="section-intro">Queue is an AI-powered startup platform that helps users create content through a voice interview with AI. It’s designed for individuals looking to amplify their presence and engage effectively on social networks.</p>
+          <div class="features queue-feature-cards">
+            <article><div class="feature-art-window"><img class="feature-art" src="assets/queue-study/feature-interview.png" alt="" loading="lazy"></div><h3>AI Voice Interview</h3><p>Queue leverages an AI named Jessica to conduct voice interviews, helping users generate personalized content effortlessly.</p></article>
+            <article><div class="feature-art-window"><img class="feature-art" src="assets/queue-study/feature-content.png" alt="" loading="lazy"></div><h3>Social Media Content Creation</h3><p>Users receive two weeks’ worth of ready-to-post content tailored for LinkedIn and other social networks, focusing on industry-relevant topics.</p></article>
+            <article><div class="feature-art-window"><img class="feature-art" src="assets/queue-study/feature-topics.png" alt="" loading="lazy"></div><h3>AI-Driven Topic Discovery</h3><p>Queue analyzes audience interests and trends, helping users identify the most relevant and timely topics to engage their network.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="study-context" aria-label="Problem statement and goals">
+      <div class="page-width study-pairs">
+          <div class="study-panel">
+            <h3>☹️ Problem Statement</h3>
+            <div class="study-item">
+              <span class="study-icon" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="2.5" width="10" height="11" rx="1"/><path d="M6 6h4M6 9h4"/></svg></span>
+              <div><h4>Interview List Accessibility</h4><p>Users are struggling to locate their interview list, requiring them to manually save links to revisit their interviews. This hampers their efficiency and control over their content management.</p></div>
+              <svg class="study-arrow" viewBox="0 0 36 20" preserveAspectRatio="none" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 15 Q12 0 35 10 M29 4 L35 10 L28 12"/></svg>
+            </div>
+            <div class="study-item">
+              <span class="study-icon" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="11" height="9" rx="1"/><path d="M5 2.5v3M11 2.5v3M3 7h10"/></svg></span>
+              <div><h4>Content Scheduling Feature Development</h4><p>Users want to schedule content publishing to save time and eliminate the need for manual posting every week. Currently, no such functionality exists on competing platforms, making it challenging for users to manage their content efficiently.</p></div>
+              <svg class="study-arrow" viewBox="0 0 36 20" preserveAspectRatio="none" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12 C23 19 13 3 10 9 S25 14 35 8 M28 4 L35 8 L29 13"/></svg>
+            </div>
+            <div class="study-item">
+              <span class="study-icon" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="3" width="11" height="10" rx="1"/><circle cx="6" cy="6" r=".8"/><path d="m3 12 4-3 2 1 2-3 2 2"/></svg></span>
+              <div><h4>Visual Content Enhancement</h4><p>Users seek to enhance their posts with personalized or humorous images that complement their text, but they lack an efficient way to find suitable visuals without significant time investment.</p></div>
+              <svg class="study-arrow" viewBox="0 0 36 20" preserveAspectRatio="none" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 14 Q14 8 35 8 M28 4 L35 8 L29 13"/></svg>
+            </div>
+            <div class="study-item">
+              <span class="study-icon" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3.5h10v7H7l-3 2.5v-2.5H3zM5 6h6M5 8h4"/></svg></span>
+              <div><h4>AI Tone of Voice Consistency</h4><p>Users are dissatisfied with AI-generated posts that do not reflect their unique tone of voice, leading to additional editing efforts before publishing. They desire a solution that allows the AI to accurately replicate their personal style in generated content.</p></div>
+              <svg class="study-arrow" viewBox="0 0 36 20" preserveAspectRatio="none" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 15 Q12 1 35 10 M29 4 L35 10 L28 12"/></svg>
+            </div>
+          </div>
+          <div class="study-panel">
+            <h3>🎯 Goal</h3>
+            <div class="study-item">
+              <span class="study-icon" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 8 3 3 6-6"/></svg></span>
+              <p>Develop a solution that allows users to access all their interviews in one consolidated location, facilitating easy navigation and management, ultimately aiming to enhance user retention.</p>
+            </div>
+            <div class="study-item">
+              <span class="study-icon" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 8 3 3 6-6"/></svg></span>
+              <p>Develop a content scheduling feature that allows users to plan and automate their publishing tasks, enabling them to save time and increase the frequency of their posts without the hassle of manual updates.</p>
+            </div>
+            <div class="study-item">
+              <span class="study-icon" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 8 3 3 6-6"/></svg></span>
+              <p>Create methods for users to incorporate personalized images and illustrations into their posts, including the creation of carousels on LinkedIn, with the goal of increasing engagement and interaction with their content.</p>
+            </div>
+            <div class="study-item">
+              <span class="study-icon" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m3.5 8 3 3 6-6"/></svg></span>
+              <p>Find ways to personalize users’ tone of voice in AI-generated content, ensuring that the output requires no edits before publication, thus streamlining the content creation process.</p>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section class="solution">
+      <div class="page-width">
+        <h2>Solution</h2>
+        <h3>Dashboard Development</h3>
+        <p>I designed the dashboard and conversational experience from the ground up, bringing AI-generated quotes, podcast clips, and social drafts into a single workspace.</p>
+        <img class="dashboard" src="assets/queue-dashboard.png" width="2328" height="1622" alt="The Queue dashboard design" loading="lazy">
+        <img class="dashboard study-visual" src="assets/queue-study/interview-dialog.png" width="2646" height="1650" alt="Interview details dialog" loading="lazy">
+        <img class="dashboard study-visual" src="assets/queue-study/conversation.png" width="2636" height="1712" alt="Voice interview with Jessica" loading="lazy">
+        <img class="dashboard study-visual" src="assets/queue-study/review.png" width="2646" height="1595" alt="Generated post drafts and review controls" loading="lazy">
+        <h3>Content Scheduling Feature Development</h3>
+        <p>Creators can plan and schedule posts in the dashboard, then review upcoming publications in a calendar.</p>
+        <img class="dashboard study-visual" src="assets/queue-study/schedule-editor.png" width="2639" height="1712" alt="Post scheduling editor" loading="lazy">
+        <img class="dashboard study-visual" src="assets/queue-study/schedule-list.png" width="2639" height="1714" alt="Scheduled posts list" loading="lazy">
+        <img class="dashboard study-visual" src="assets/queue-study/schedule-preview.png" width="2639" height="1713" alt="Post preview and scheduling controls" loading="lazy">
+        <img class="dashboard study-visual" src="assets/queue-study/calendar-updated.png" width="2634" height="1711" alt="Publishing calendar" loading="lazy">
+        <h3>Enhanced Visual Content Creation with AI</h3>
+        <p>Creators can personalize templates and generate images for their LinkedIn posts.</p>
+        <img class="dashboard study-visual" src="assets/queue-study/visual-templates.png" width="2633" height="1710" alt="Visual template picker" loading="lazy">
+        <img class="dashboard study-visual" src="assets/queue-study/visual-editor.png" width="2633" height="2774" alt="Post editor with a visual template" loading="lazy">
+        <img class="dashboard study-visual" src="assets/queue-study/image-generation.png" width="2633" height="1707" alt="AI-generated image in the post editor" loading="lazy">
+        <h3>Smart Tone of Voice Personalization Using AI</h3>
+        <p>I designed an AI flow that uses a writer’s input to adapt generated posts to their individual tone of voice.</p>
+        <img class="dashboard study-visual" src="assets/queue-study/voice-options.png" width="2640" height="1741" alt="Tone of voice setup options" loading="lazy">
+        <img class="dashboard study-visual" src="assets/queue-study/voice-analysis.png" width="2640" height="1530" alt="AI tone of voice analysis" loading="lazy">
+        <img class="dashboard study-visual" src="assets/queue-study/voice-preview.png" width="2640" height="1530" alt="Example post and tone feedback" loading="lazy">
+      </div>
+    </section>
+    <section class="results">
+      <div class="page-width">
+        <h2>🚀 Result</h2>
+        <div class="result-grid">
+          <article>
+            <h3>🎯 Dashboard Implementation:</h3>
+            <ul>
+              <li><span aria-hidden="true">✓</span><div><strong>Retention rate increased by 20%.</strong></div></li>
+              <li><span aria-hidden="true">✓</span><div>Positive user feedback led to a <strong>100% increase in paid subscriptions.</strong></div></li>
+              <li><span aria-hidden="true">✓</span><div>Delivered a comprehensive product that supports the entire user flow.</div></li>
+            </ul>
+          </article>
+          <article>
+            <h3>🎉 Content Scheduling Feature:</h3>
+            <ul>
+              <li><span aria-hidden="true">✓</span><div><strong>Users saved up to 70% of their time</strong> on publishing tasks.</div></li>
+              <li><span aria-hidden="true">✓</span><div>New scheduling capabilities allowed users to <strong>save at least one hour each week.</strong></div></li>
+              <li><span aria-hidden="true">✓</span><div>During A/B testing, the average <strong>number of published posts tripled.</strong></div></li>
+            </ul>
+          </article>
+          <article>
+            <h3>🎈 Template and AI Image Generation Features:</h3>
+            <ul>
+              <li><span aria-hidden="true">✓</span><div><strong>Users published 20% more content through the platform</strong> using the new templates and AI-generated images.</div></li>
+              <li><span aria-hidden="true">✓</span><div>Users spent more time on the platform experimenting with the AI image generation, enhancing their overall experience.</div></li>
+            </ul>
+          </article>
+          <article>
+            <h3>🥸 AI Personalization of Tone of Voice:</h3>
+            <ul>
+              <li><span aria-hidden="true">✓</span><div><strong>Time spent on editing posts decreased by 60%.</strong></div></li>
+              <li><span aria-hidden="true">✓</span><div>Users reported posting content without edits after their interviews, expressing satisfaction with the feature as AI-generated posts felt authentically aligned with their voice.</div></li>
+            </ul>
+          </article>
+        </div>
+
+      </div>
+      <div class="next-case-action">
+        <a class="next-case-link" href="instapanel-core-actions.html">Read the Next Case Study <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+  </main>
+  <section class="case-contact" id="contact">
+  <h2>Let’s make something<br>great together.</h2>
+  <ul class="contact-links">
+    <li><a class="contact-link" href="https://www.linkedin.com/in/yulia-rupcheva/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></li>
+    <li><button class="contact-link contact-email" type="button">Write me an email <span aria-hidden="true">↗</span></button></li>
+  </ul>
+  <footer><span>© 2026 Yulia Rupcheva</span><a href="#">Back to top ↑</a></footer>
+</section>
+  <script src="case-header.js" defer></script>
+  <script>
+  document.querySelector('.contact-email').addEventListener('click', (event) => {
+    const address = document.createElement('span');
+    address.className = 'contact-link';
+    address.tabIndex = -1;
+    address.textContent = 'yuliarupcheva@gmail.com';
+    event.currentTarget.replaceWith(address);
+    address.focus();
+  });
+</script>
+</body>
+</html>

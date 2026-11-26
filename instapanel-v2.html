@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Instapanel Platform Redesign | Yulia Rupcheva</title>
+  <link rel="stylesheet" href="queue.css">
+  <link rel="stylesheet" href="instapanel-v2.css">
+  <link rel="stylesheet" href="case-contact.css">
+</head>
+<body>
+  <header class="site-header case-home-header"><a class="wordmark" href="index.html" aria-label="Yulia Rupcheva home">YR<span>®</span></a><a class="header-name" href="index.html">Yulia Rupcheva</a></header>
+  <svg class="result-image-filters" xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" focusable="false">
+    <defs>
+      <filter id="v2-result-sharpen" color-interpolation-filters="sRGB">
+        <feConvolveMatrix order="3" kernelMatrix="0 -.12 0 -.12 1.48 -.12 0 -.12 0" preserveAlpha="true"/>
+      </filter>
+    </defs>
+  </svg>
+  <main class="redesign-study">
+    <section class="redesign-cover">
+      <div class="redesign-cover-inner">
+        <img class="redesign-logo" src="assets/instapanel-logo.svg" alt="Instapanel">
+        <h1>Transformative Redesign of SAAS Platform:<br>Process description</h1>
+      </div>
+      <div class="outcome-carousel" role="region" aria-label="Instapanel product screenshots">
+        <div class="outcome-stage" id="outcome-slides" tabindex="0" aria-label="Screenshots. Use the left and right arrow keys to browse.">
+          <img data-position="current" src="assets/instapanel-redesign-carousel-1.png" alt="Proposal with the task assignee menu open" width="2618" height="1862" decoding="async">
+          <img data-position="next" aria-hidden="true" src="assets/instapanel-redesign-carousel-2.png" alt="Response review with feedback feed" width="2618" height="1851" decoding="async">
+          <img data-position="hidden" aria-hidden="true" src="assets/instapanel-redesign-carousel-3.png" alt="Transcriptions and questionnaire navigation" width="2618" height="1853" decoding="async">
+          <img data-position="hidden" aria-hidden="true" src="assets/instapanel-redesign-carousel-4.png" alt="Proposal with screening setup" width="2618" height="1813" decoding="async">
+          <img data-position="hidden" aria-hidden="true" src="assets/instapanel-redesign-carousel-5.png" alt="Proposal with audience segments" width="2618" height="1862" decoding="async">
+          <img data-position="hidden" aria-hidden="true" src="assets/instapanel-redesign-carousel-6.png" alt="Cost Estimates worksheet" width="2618" height="1862" decoding="async">
+          <img data-position="hidden" aria-hidden="true" src="assets/instapanel-redesign-carousel-7.png" alt="Pricing Table with the actions menu open" width="2620" height="1866" decoding="async">
+          <img data-position="hidden" aria-hidden="true" src="assets/instapanel-redesign-carousel-8.png" alt="Pricing Table with selectable groups" width="2619" height="1862" decoding="async">
+          <img data-position="previous" aria-hidden="true" src="assets/instapanel-redesign-carousel-9.png" alt="Screening with the question selector open" width="2618" height="1862" decoding="async">
+        </div>
+      </div>
+    </section>
+
+    <section class="redesign-section intro-section">
+      <div class="redesign-width">
+        <h2>About Instapanel</h2>
+        <p>Instapanel is a B2B SaaS market research platform supporting <strong>90% of employees' daily work</strong>, from study proposals and audience targeting to participant recruitment and data management.</p>
+      </div>
+    <div class="redesign-section role-section">
+      <div class="redesign-width">
+        <h2>My Role</h2>
+        <p class="role-intro">I was the sole Senior Product Designer at Instapanel, leading the end-to-end redesign of a B2B SaaS platform in collaboration with C-level leadership and Product.</p>
+        <div class="icon-copy-list role-list">
+          <article><span class="detail-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><path d="M8 7h8M8 11h8"/></svg></span><div><p>Simplified workflows, contributing to <strong>15% revenue growth</strong>.</p></div></article>
+          <article><span class="detail-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5"/></svg></span><div><p>Reduced proposal creation from <strong>18 to 7 minutes</strong> and participant search from <strong>45 minutes to ~3 seconds</strong>.</p></div></article>
+          <article><span class="detail-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="5" rx="1"/><rect x="3" y="16" width="6" height="5" rx="1"/><rect x="15" y="16" width="6" height="5" rx="1"/><path d="M12 8v4M6 16v-4h12v4"/></svg></span><div><p>Redesigned information architecture, reducing core task completion time by <strong>40%</strong>.</p></div></article>
+          <article><span class="detail-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V4h8v3M3 12h18M9 12v2h6v-2"/></svg></span><div><p>Prioritized MVP features, conducted usability testing, and delivered validated designs.</p></div></article>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section class="redesign-section problem-section">
+      <div class="redesign-width">
+        <h2>Problem Statement</h2>
+        <p class="problem-intro">Instapanel's SAAS platform faced challenges due to outdated design and lack of intuitiveness:</p>
+        <ul class="problem-checklist" role="list">
+          <li>Learning Curve: Users struggled with a non-intuitive interface, requiring extensive tutorials.</li>
+          <li>Redundant Actions: Inefficiencies led to repeated tasks, increasing frustration and task durations.</li>
+          <li>User Experience: Overall, the outdated design impacted productivity and satisfaction negatively.</li>
+        </ul>
+        <p class="problem-summary">In summary, Instapanel's platform demands a complete UX redesign to address the learning curve, eliminate redundant actions, and enhance user experience.</p>
+        <figure class="problem-gallery">
+          <figcaption>Instapanel's OLD platform:</figcaption>
+          <div class="problem-gallery-row">
+            <div class="problem-gallery-frame" style="--frame-ratio: 1274 / 981; --image-width: 107.5353%; --image-left: -3.7677%; --image-top: -3.2620%"><img src="assets/instapanel-legacy-panels.png" alt="Original Instapanel panels interface" loading="lazy"></div>
+            <div class="problem-gallery-frame" style="--frame-ratio: 1274 / 981; --image-width: 107.5353%; --image-left: -3.7677%; --image-top: -3.2620%"><img src="assets/instapanel-legacy-admin.png" alt="Original Instapanel admin and pricing interface" loading="lazy"></div>
+          </div>
+          <div class="problem-gallery-row">
+            <div class="problem-gallery-frame" style="--frame-ratio: 1282 / 824; --image-width: 106.2402%; --image-left: -3.1201%; --image-top: -2.9126%"><img src="assets/instapanel-legacy-responses.png" alt="Original Instapanel responses list" loading="lazy"></div>
+            <div class="problem-gallery-frame" style="--frame-ratio: 1278 / 824; --image-width: 106.2598%; --image-left: -3.1299%; --image-top: -2.9126%"><img src="assets/instapanel-legacy-quotes-report.png" alt="Original Instapanel quotes report settings" loading="lazy"></div>
+          </div>
+          <div class="problem-gallery-row">
+            <div class="problem-gallery-frame" style="--frame-ratio: 986 / 764; --image-width: 108.1136%; --image-left: -4.0568%; --image-top: -3.1414%"><img src="assets/instapanel-legacy-response.png" alt="Original Instapanel video-response and participant experience" loading="lazy"></div>
+            <div class="problem-gallery-frame" style="--frame-ratio: 592 / 757; --image-width: 113.5135%; --image-left: -6.7568%; --image-top: -1.1889%"><img src="assets/instapanel-legacy-question.png" alt="Original Instapanel multiple-choice question editor" loading="lazy"></div>
+            <div class="problem-gallery-frame" style="--frame-ratio: 974 / 764; --image-width: 108.2136%; --image-left: -4.1068%; --image-top: -3.1414%"><img src="assets/instapanel-legacy-branching.png" alt="Original Instapanel branching editor" loading="lazy"></div>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <section class="redesign-section process-section">
+      <div class="redesign-width">
+        <h2>Design Process</h2>
+        <p class="section-lead">A considered process beginning with research and strategic mapping of key elements before diving into the redesign work.</p>
+        <div class="process-grid">
+          <article>
+            <div>Industry and SAAS Platform analysis</div>
+            <svg class="process-arrow" viewBox="0 0 58 32" aria-hidden="true" focusable="false">
+              <defs><linearGradient id="process-arrow-1"><stop stop-color="#628cff"/><stop offset="1" stop-color="#f355d3"/></linearGradient></defs>
+              <path d="M6 22Q22 11 49 12 M39 7L49 12L38 19" fill="none" stroke="url(#process-arrow-1)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </article>
+          <article>
+            <div>Research:<ul><li>Business interviews</li><li>User interviews</li><li>Competitor Analysis</li></ul></div>
+            <svg class="process-arrow" viewBox="0 0 58 32" aria-hidden="true" focusable="false">
+              <defs><linearGradient id="process-arrow-2"><stop stop-color="#628cff"/><stop offset="1" stop-color="#f355d3"/></linearGradient></defs>
+              <path d="M3 24C13 5 39 5 54 18 M47 8L54 18L42 20" fill="none" stroke="url(#process-arrow-2)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </article>
+          <article>
+            <div><ul><li>Product Journey map</li><li>Personas</li><li>Users journey map</li></ul></div>
+            <svg class="process-arrow" viewBox="0 0 58 32" aria-hidden="true" focusable="false">
+              <defs><linearGradient id="process-arrow-3"><stop stop-color="#f355d3"/><stop offset="1" stop-color="#628cff"/></linearGradient></defs>
+              <path d="M3 17C3 4 23 8 23 20C23 31 8 21 17 13C24 6 38 6 55 9 M43 2L55 9L42 17" fill="none" stroke="url(#process-arrow-3)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </article>
+          <article>
+            <div><ul><li>Information architecture</li><li>Users flows</li></ul></div>
+          </article>
+          <article>
+            <div><ul><li>Rapid wireframing</li><li>Low fidelity mockups</li><li>Consultations with developers</li></ul></div>
+            <svg class="process-arrow" viewBox="0 0 58 32" aria-hidden="true" focusable="false">
+              <defs><linearGradient id="process-arrow-5"><stop stop-color="#f355d3"/><stop offset="1" stop-color="#628cff"/></linearGradient></defs>
+              <path d="M3 18C15 22 25 11 19 9C13 8 8 22 25 22Q39 21 54 10 M40 10L54 10L45 23" fill="none" stroke="url(#process-arrow-5)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </article>
+          <article>
+            <div>User Testing:<ul><li>Quality</li><li>Quantity</li></ul></div>
+            <svg class="process-arrow" viewBox="0 0 58 32" aria-hidden="true" focusable="false">
+              <defs><linearGradient id="process-arrow-6"><stop stop-color="#628cff"/><stop offset="1" stop-color="#f355d3"/></linearGradient></defs>
+              <path d="M6 22Q22 11 49 12 M39 7L49 12L38 19" fill="none" stroke="url(#process-arrow-6)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </article>
+          <article>
+            <div><ul><li>Implementing changes based on testing and feedback</li><li>High fidelity mockups</li></ul></div>
+            <svg class="process-arrow" viewBox="0 0 58 32" aria-hidden="true" focusable="false">
+              <defs><linearGradient id="process-arrow-7"><stop stop-color="#628cff"/><stop offset="1" stop-color="#f355d3"/></linearGradient></defs>
+              <path d="M3 24C13 5 39 5 54 18 M47 8L54 18L42 20" fill="none" stroke="url(#process-arrow-7)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </article>
+          <article>
+            <div><ul><li>Launch the product and initiate ongoing feedback</li><li>Platform improvement after launch</li></ul></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="redesign-section competitive-section">
+      <div class="redesign-width">
+        <h2 id="competitive-title">Competitive Analysis</h2>
+        <p>Instapanel stands out for its user-friendly SaaS platform focused on global research. Compared to rivals like SurveyMonkey and Qualtrics, it excels in client communication and efficient panelist searches. The summary highlights each competitor’s key features to help decision-makers select a research platform.</p>
+        <div class="competitive-scroll" role="region" aria-labelledby="competitive-title" tabindex="0">
+          <table class="competitive-table"><thead><tr><th scope="col">Company</th><th scope="col">Key Features</th><th scope="col">Target Market</th><th scope="col">User Experience</th><th scope="col">Client Communication</th><th scope="col">Panelist Search</th><th scope="col">Time-saving Features</th></tr></thead><tbody>
+            <tr><th scope="row">Instapanel</th><td>Video answers from panelists, global research, and translation</td><td>Marketing professionals, researchers</td><td><span class="competitive-rating"><span class="competitive-face neutral" aria-hidden="true"></span>Not ideal</span></td><td>Enhanced client communication tools</td><td>Efficient panelist search</td><td>Focus on time-saving tools</td></tr>
+            <tr><th scope="row">SurveyMonkey</th><td>Online survey creation and analysis</td><td>Businesses, researchers</td><td><span class="competitive-rating"><span class="competitive-face smile" aria-hidden="true"></span>User-friendly interface</span></td><td>Various survey distribution options</td><td>Survey respondent profiling</td><td>Automated survey analysis tools</td></tr>
+            <tr><th scope="row">Lucid</th><td>Research technology platform</td><td>Agencies, enterprises</td><td><span class="competitive-rating"><span class="competitive-face grin" aria-hidden="true"></span>Intuitive dashboard design</span></td><td>Real-time data visualization</td><td>Programmatic sample marketplace</td><td>Automated survey programming</td></tr>
+            <tr><th scope="row">Zappi</th><td>Automated market research platform</td><td>Brands, agencies</td><td><span class="competitive-rating"><span class="competitive-face smile" aria-hidden="true"></span>Intuitive tools for non-researchers</span></td><td>Real-time project tracking</td><td>Global panelist recruitment</td><td>AI-powered automated insights</td></tr>
+          </tbody></table>
+        </div>
+      </div>
+    </section>
+
+    <section class="redesign-section journey-section">
+      <div class="redesign-width">
+        <h2>Product Journey Map</h2>
+        <p>The goal was to map the touchpoints and interactions between Instapanel employees and clients, identify their needs, and use those insights to design the new platform.</p>
+        <div class="journey-preview"><img src="assets/instapanel-redesign-journey.png" alt="Product journey map showing employee and client touchpoints" loading="lazy"></div>
+      </div>
+    </section>
+
+    <section class="redesign-section architecture-section">
+      <div class="redesign-width">
+        <h2>Information Architecture</h2>
+        <p>Developing a high-level Information Architecture to strategically organize the new platform’s user experience, streamlining navigation for improved usability.</p>
+        <div class="architecture-map">
+          <div class="architecture-root"><strong>Instapanel</strong><span>Platform root · 4 primary areas</span></div>
+          <div class="architecture-branches">
+            <details><summary>Inbox</summary><div class="architecture-details"><span>Notifications</span><p>A single place for updates, follow-ups, and activity across the platform.</p>
+              <h4>Filter by</h4><ul><li>Date</li><li>Read / Unread</li><li>Client</li><li>Letter</li></ul>
+              <h4>Notification types</h4><ul><li>From client</li><li>From manager</li><li>Status update</li><li>Personal reminders / Follow-ups</li><li>Mention</li><li>Tag</li><li>Suggested edit</li><li>Deadline</li></ul>
+            </div></details>
+            <details><summary>Panels</summary><div class="architecture-details"><span>List of all panels</span><p>Browse, find, and manage every panel and its working components.</p>
+              <h4>Filter by</h4><ul><li>My Panels</li><li>All Panels</li><li>Client</li><li>Letter</li><li>Date</li></ul>
+              <h4>Find</h4><ul><li>Dynamic search</li></ul>
+              <h4>Panel structure</h4><ul><li>Audience</li><li>Proposal</li><li>Cost Estimates</li><li>Pricing Table</li><li>Questionnaire</li><li>Screening</li><li>Translations</li><li>Recruitment</li><li>Responses</li><li>Quotes</li><li>Costs</li></ul>
+            </div></details>
+            <details><summary>Clients</summary><div class="architecture-details"><span>List of all clients</span><p>Access the complete client directory and quickly narrow the list.</p>
+              <h4>Filter by</h4><ul><li>My Clients</li><li>All Clients</li><li>Manager</li><li>Letter</li><li>Date</li></ul>
+            </div></details>
+            <details><summary>Profile</summary><div class="architecture-details"><span>Settings</span><p>Manage your account, product preferences, and support resources.</p>
+              <h4>Settings items</h4><ul><li>Account</li><li>Share Feedback</li><li>Privacy Policy</li><li>Help &amp; Support</li><li>About Instapanel</li><li>Sign Out</li></ul>
+            </div></details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="redesign-section pricing-section">
+      <div class="redesign-width">
+        <h2>Project Challenges</h2>
+        <p class="pricing-intro">Redesigning the core product areas while preserving familiar workflows for an expert B2B audience.</p>
+        <h3>Pricing Tables</h3>
+        <div class="pricing-problem">
+          <article><h4>Problem</h4><ol>
+            <li>Employees used Google Sheets to create pricing tables.</li>
+            <li>Each client request required a new pricing table, making the workflow time-consuming.</li>
+            <li>Estimating the right price often required help from a manager.</li>
+          </ol></article>
+          <figure class="pricing-previous"><figcaption>How it was</figcaption><svg class="pricing-arrow pricing-arrow-previous" viewBox="0 0 58 46" aria-hidden="true" focusable="false">
+              <path d="M3 30C14 8 36 6 52 14 M43 5L52 14L41 18" fill="none" stroke="url(#process-arrow-2)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg><img src="assets/instapanel-redesign-legacy-cost-timing.png" alt="Original Cost and Timing quote with panelist counts, dates, and prices" width="1332" height="998" loading="lazy"></figure>
+        </div>
+        <h3>Solution</h3>
+        <p class="redesign-check">Users can effortlessly generate pricing tables within the platform once the audience is created, eliminating the need for Google Sheets.</p>
+        <div class="pricing-workflow" role="group" aria-label="Pricing table workflow">
+          <div class="pricing-audience">
+            <img src="assets/instapanel-redesign-pricing-audience.png" alt="Audience criteria and segments with the Generate Pricing Table button" width="1244" height="1056" loading="lazy">
+            <svg class="pricing-arrow pricing-arrow-audience" viewBox="0 0 58 46" aria-hidden="true" focusable="false">
+              <path d="M3 30C14 8 36 6 52 14 M43 5L52 14L41 18" fill="none" stroke="url(#process-arrow-2)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="pricing-worksheets">
+            <div class="pricing-worksheet pricing-worksheet-empty"><img src="assets/instapanel-redesign-pricing-worksheet.png" alt="Cost estimates worksheet before costs are entered" width="1653" height="475" loading="lazy">
+              <svg class="pricing-arrow pricing-arrow-worksheet" viewBox="0 0 58 46" aria-hidden="true" focusable="false">
+              <path d="M24 3C41 14 40 30 29 42 M29 32L29 42L39 38" fill="none" stroke="url(#process-arrow-2)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            </div>
+            <div class="pricing-worksheet"><img src="assets/instapanel-redesign-pricing-worksheet-filled.png" alt="Cost estimates worksheet with incentive and recruitment costs entered" width="686" height="251" loading="lazy">
+              <svg class="pricing-arrow pricing-arrow-generated" viewBox="0 0 58 46" aria-hidden="true" focusable="false">
+              <path d="M19 3C12 20 23 33 38 42 M27 42L38 42L35 32" fill="none" stroke="url(#process-arrow-2)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            </div>
+            <div class="pricing-generated">
+              <img src="assets/instapanel-redesign-challenge.png" alt="Generated pricing table populated with audience line items" width="2741" height="2105" loading="lazy">
+            </div>
+          </div>
+        </div>
+        <p class="redesign-check pricing-gallery-intro">The Smart Pricing table now automatically suggests pricing based on entered criteria and audience details, eliminating any confusion regarding pricing decisions.</p>
+        <div class="pricing-gallery">
+          <img src="assets/instapanel-redesign-pricing-empty.png" alt="New pricing table with empty panelist, timing, and cost fields" width="934" height="780" loading="lazy">
+          <img src="assets/instapanel-redesign-pricing-edit.png" alt="Entering timing and cost details for a panelist group" width="934" height="840" loading="lazy">
+          <img src="assets/instapanel-redesign-pricing-options.png" alt="Suggested line items and conjunctions in the pricing table" width="887" height="740" loading="lazy">
+        </div>
+        <p class="redesign-check pricing-gallery-intro">With the new system, users can edit the table and generate multiple options in less than 30 seconds. Smart table suggests all needed options.</p>
+        <div class="pricing-gallery">
+          <img src="assets/instapanel-redesign-pricing-select.png" alt="Selecting panelist groups, deliverables, and discounts" width="889" height="1016" loading="lazy">
+          <img src="assets/instapanel-redesign-pricing-save.png" alt="Saving a pricing table with optional groups and discounts" width="889" height="1124" loading="lazy">
+          <img src="assets/instapanel-redesign-pricing-review.png" alt="Reviewing the pricing table and available selections" width="889" height="1124" loading="lazy">
+        </div>
+        <h3>Result</h3>
+        <div class="redesign-results">
+          <img src="assets/instapanel-v2-result-11.png" alt="Pricing table with participant groups, deliverables, and discounts" width="2618" height="1628" loading="lazy">
+          <img src="assets/instapanel-v2-result-12.png" alt="Pricing table with panelist groups selected" width="2618" height="1628" loading="lazy">
+          <img src="assets/instapanel-v2-result-13.png" alt="Final pricing table with selection options" width="2618" height="1622" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="redesign-section screening-section">
+      <div class="redesign-width">
+        <h2>Screening</h2>
+        <p class="screening-intro">Simplifying complex participant criteria without losing the flexibility needed by research teams.</p>
+        <h3>Problem</h3>
+        <ol>
+          <li>Users needed to link the right questionnaire question to each screening criterion.</li>
+          <li>Users needed a clear way to screen out panelists who did not meet the questionnaire criteria.</li>
+        </ol>
+        <h3>Solution</h3>
+        <p class="redesign-check">Users can choose a question from the list and select the corresponding screening answer.</p>
+        <div class="screening-workflow" role="group" aria-label="Screening workflow">
+          <div class="screening-step screening-step-question">
+            <img src="assets/instapanel-redesign-screening-question.png" alt="Selecting a questionnaire question for a screening criterion" width="1336" height="1195" loading="lazy">
+            <svg class="screening-arrow" viewBox="0 0 60 46" aria-hidden="true" focusable="false">
+              <path d="M3 28C15 9 38 8 54 19 M45 8L54 19L40 21" fill="none" stroke="url(#process-arrow-2)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="screening-step screening-step-answer">
+            <img src="assets/instapanel-redesign-screening-answer.png" alt="Selecting the matching answer from an employee-count dropdown" width="1276" height="1254" loading="lazy">
+            <svg class="screening-arrow" viewBox="0 0 60 46" aria-hidden="true" focusable="false">
+              <path d="M51 6C64 17 37 26 37 15C37 5 52 13 38 25Q25 34 7 40 M17 27L7 40L22 38" fill="none" stroke="url(#process-arrow-3)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="screening-step screening-step-save">
+            <img src="assets/instapanel-redesign-screening-save.png" alt="Saving the selected screening answer" width="1262" height="1128" loading="lazy">
+            <svg class="screening-arrow" viewBox="0 0 60 46" aria-hidden="true" focusable="false">
+              <path d="M4 15C17 32 40 31 54 13 M42 15L54 13L51 25" fill="none" stroke="url(#process-arrow-2)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="screening-step screening-step-saved">
+            <img src="assets/instapanel-redesign-screening-saved.png" alt="Saved screening criterion and its matching answer" width="1262" height="1146" loading="lazy">
+          </div>
+        </div>
+        <h3>Result</h3>
+        <div class="redesign-results">
+          <picture>
+            <source media="(min-width: 801px)" srcset="assets/instapanel-redesign-criteria-a.png" width="2534" height="1578">
+            <img src="assets/instapanel-v2-result-14.png" alt="Screening with custom criteria and linked answers" width="1309" height="816" loading="lazy">
+          </picture>
+          <picture>
+            <source media="(min-width: 801px)" srcset="assets/instapanel-redesign-criteria-b.png" width="2516" height="1572">
+            <img src="assets/instapanel-v2-result-15.png" alt="Screening with linked answers and validation notices" width="1300" height="812" loading="lazy">
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section class="redesign-section outcome-section">
+      <div class="redesign-width">
+        <h2>Outcome Overview</h2>
+        <ul class="outcome-list"><li>Full new redesign for the SAAS platform implemented.</li><li>Users now experience a seamless process creating the entire panel within the platform.</li><li>Significant time savings, allowing more focus on creative tasks.</li><li>Increased client acquisition for employees, contributing to company revenue growth.</li><li>Positive feedback received from users.</li><li>Enhanced user satisfaction and engagement.</li><li>Improved efficiency in communication between users and clients.</li><li>Streamlined data management for better decision-making.</li></ul>
+      </div>
+
+      <div class="next-case-action">
+        <a class="next-case-link" href="ureeka.html">Read the Next Case Study <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+  </main>
+  <section class="case-contact" id="contact">
+  <h2>Let’s make something<br>great together.</h2>
+  <ul class="contact-links">
+    <li><a class="contact-link" href="https://www.linkedin.com/in/yulia-rupcheva/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></li>
+    <li><button class="contact-link contact-email" type="button">Write me an email <span aria-hidden="true">↗</span></button></li>
+  </ul>
+  <footer><span>© 2026 Yulia Rupcheva</span><a href="#">Back to top ↑</a></footer>
+</section>
+  <script>
+    (() => {
+      const desktop = window.matchMedia('(min-width: 801px)');
+      const panels = document.querySelectorAll('.architecture-branches details');
+
+      function applyLayoutDefaults() {
+        for (const panel of panels) panel.open = desktop.matches;
+      }
+
+      applyLayoutDefaults();
+      desktop.addEventListener('change', applyLayoutDefaults);
+    })();
+  </script>
+  <script>
+    (() => {
+      const stage = document.querySelector('.outcome-stage');
+      const slides = [...stage.children];
+      const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+      const count = slides.length;
+      let position = 0;
+      let velocity = 0;
+      let target = 0;
+      let frame = 0;
+      let lastFrameTime = 0;
+      let active = 0;
+      let wheelTimer;
+      let wheelOrigin = 0;
+      let touchStart = null;
+
+      function render() {
+        const nextActive = ((Math.round(position) % count) + count) % count;
+        slides.forEach((slide, index) => {
+          const offset = ((index - position + count / 2) % count + count) % count - count / 2;
+          const distance = Math.abs(offset);
+          // Let adjacent cards clear each other as they trade the foreground.
+          const separation = 9 * Math.sin(Math.PI * Math.min(distance, 1)) * Math.sign(offset);
+          slide.style.setProperty('--slide-x', (offset * 78 + separation - 50) + '%');
+          slide.style.setProperty('--slide-scale', 1 - Math.min(distance, 1) * .16);
+          slide.style.zIndex = String(20 - Math.round(distance * 4));
+          slide.style.visibility = distance < 2 ? 'visible' : 'hidden';
+        });
+        if (nextActive !== active) {
+          slides[active].setAttribute('aria-hidden', 'true');
+          slides[nextActive].removeAttribute('aria-hidden');
+          active = nextActive;
+        }
+      }
+
+      function animate(time) {
+        const elapsed = lastFrameTime ? Math.min(time - lastFrameTime, 50) : 16;
+        lastFrameTime = time;
+        // A critically damped spring retains velocity when the scroll target changes.
+        const displacement = position - target;
+        const spring = .012;
+        const decay = Math.exp(-spring * elapsed);
+        const impulse = velocity + spring * displacement;
+        const settled = reducedMotion.matches
+          || (Math.abs(displacement) < .001 && Math.abs(velocity) < .00002);
+        position = settled ? target : target + (displacement + impulse * elapsed) * decay;
+        velocity = settled ? 0 : (velocity - spring * impulse * elapsed) * decay;
+        render();
+        frame = settled ? 0 : requestAnimationFrame(animate);
+      }
+
+      function moveTo(next) {
+        target = next;
+        if (frame) return;
+        lastFrameTime = 0;
+        frame = requestAnimationFrame(animate);
+      }
+
+      function advance(direction) {
+        clearTimeout(wheelTimer);
+        wheelTimer = undefined;
+        moveTo(Math.round(target) + direction);
+      }
+
+      stage.addEventListener('keydown', event => {
+        if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
+        event.preventDefault();
+        advance(event.key === 'ArrowRight' ? 1 : -1);
+      });
+
+      stage.addEventListener('wheel', event => {
+        const delta = Math.abs(event.deltaX) > Math.abs(event.deltaY) ? event.deltaX : event.deltaY;
+        if (!delta || event.ctrlKey || !event.cancelable) return;
+        event.preventDefault();
+        if (wheelTimer === undefined) wheelOrigin = Math.round(target);
+        clearTimeout(wheelTimer);
+        const multiplier = event.deltaMode === 1 ? 16 : event.deltaMode === 2 ? stage.clientHeight : 1;
+        const travel = Math.max(-160, Math.min(160, delta * multiplier)) / 220;
+        if (reducedMotion.matches) target += travel;
+        else moveTo(target + travel);
+
+        wheelTimer = setTimeout(() => {
+          wheelTimer = undefined;
+          const change = target - wheelOrigin;
+          const rounded = Math.round(target);
+          const next = rounded === wheelOrigin && Math.abs(change) >= .08
+            ? wheelOrigin + Math.sign(change) : rounded;
+          moveTo(next);
+        }, 180);
+      }, { passive: false });
+
+      stage.addEventListener('pointerdown', event => {
+        if (event.pointerType === 'touch' && event.isPrimary) {
+          touchStart = { x: event.clientX, y: event.clientY };
+        }
+      });
+      stage.addEventListener('pointerup', event => {
+        if (!touchStart || !event.isPrimary) return;
+        const x = event.clientX - touchStart.x;
+        const y = event.clientY - touchStart.y;
+        touchStart = null;
+        if (Math.abs(x) >= 35 && Math.abs(x) > Math.abs(y)) advance(x < 0 ? 1 : -1);
+      });
+      stage.addEventListener('pointercancel', () => { touchStart = null; });
+      render();
+    })();
+  </script>
+  <script src="case-header.js" defer></script>
+  <script>
+  document.querySelector('.contact-email').addEventListener('click', (event) => {
+    const address = document.createElement('span');
+    address.className = 'contact-link';
+    address.tabIndex = -1;
+    address.textContent = 'yuliarupcheva@gmail.com';
+    event.currentTarget.replaceWith(address);
+    address.focus();
+  });
+</script>
+</body>
+</html>

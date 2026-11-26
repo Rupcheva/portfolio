@@ -1,0 +1,84 @@
+/* Mirrors the contact card on the portfolio homepage. */
+.case-contact {
+  --card-width: min(1540px, calc(100% - 48px));
+  width: var(--card-width);
+  margin: 0 auto 24px;
+  border-radius: 28px;
+  padding: 80px max(48px, calc((var(--card-width) - 1280px) / 2)) 0;
+  background: #1b1b1b;
+  color: #f6f6f3;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.case-contact h2 {
+  margin: 28px 0 35px;
+  font-size: clamp(48px, 7vw, 88px);
+  line-height: 1.08;
+  letter-spacing: -4px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.case-contact .contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 32px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.case-contact a { color: inherit; text-decoration: none; }
+.case-contact a:hover { color: #999995; }
+.case-contact a:focus-visible { outline: 2px solid currentColor; outline-offset: 7px; }
+
+.case-contact .contact-link {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-block: 14px;
+  border-bottom: 1px solid #383838;
+  font-size: 15px;
+}
+
+.case-contact footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: clamp(32px, 5vw, 70px);
+  padding-block: 25px;
+  border-top: 1px solid #383838;
+  color: inherit;
+  font-size: 12px;
+}
+
+@media (max-width: 900px) { .case-contact { padding-inline: 32px; } }
+
+@media (max-width: 700px) {
+  .case-contact {
+    --card-width: calc(100% - 24px);
+    margin-bottom: 18px;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .case-contact { padding: 52px 20px 0; }
+  .case-contact h2 { font-size: 47px; letter-spacing: -2px; }
+  .case-contact .contact-link { font-size: 14px; }
+  .case-contact footer { padding-block: 22px; font-size: 10px; }
+}
+
+.case-contact .contact-email {
+  appearance: none;
+  border: 0;
+  border-bottom: 1px solid #383838;
+  background: transparent;
+  color: inherit;
+  font-family: inherit;
+  padding-inline: 0;
+  cursor: pointer;
+}
+.case-contact .contact-email:hover { color: #999995; }
+.case-contact .contact-email:focus-visible { outline: 2px solid currentColor; outline-offset: 7px; }
